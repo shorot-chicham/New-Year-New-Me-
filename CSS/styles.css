@@ -1,0 +1,31 @@
+/* this is styles code  */
+.header{
+    background-image: url('/images/banner/banner3.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.header-aside{
+    width: 50%;
+    margin-left: auto;
+    padding: 50px 20px;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.header-title{
+    color: white;
+    text-align: right;
+    padding-right: 40px;
+    font-size: 50px;
+}
+
+.header-description{
+    color: white;
+    text-align: right;
+    padding-right: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+}
