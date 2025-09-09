@@ -157,3 +157,191 @@
     color: white;
     cursor: pointer;
 } 
+
+/* footer container styles start from here */
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background-color: #151414;
+    color: white;
+    gap: 100px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.future-container-content{
+    max-width: 400px;
+    text-align: left;
+}
+
+.my-sites{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.github-icon{
+    border: none;
+    border-radius: 50%;
+}
+
+.subscribe-info{
+    text-align: left;
+}
+
+.subscribe-info input{
+    padding: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+.subscribe-btn{
+    padding: 10px 15px ;
+    font-size: 15px;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+
+.subscribe-btn:hover{
+    background-color: #b5ca67;
+    color: rgb(4, 8, 15);
+    cursor: pointer;
+}
+
+
+
+/* media query for responsive design  */
+/* smaller screen  */
+
+@media  screen and (max-width: 576px){
+    .header{
+        height: auto;
+    }
+
+    .header-aside{
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .header-title{
+        font-size: 30px;
+        padding-right: 0;
+    }
+
+    .header-description{
+        font-size: 16px;
+        padding-right: 0;
+    }
+
+    .failures-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .my-plans-container{
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+
+    .mindset-container{
+        margin: 10px;
+    }
+
+    .mindset-content{
+        padding: 20px;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .future-container-content{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .my-sites{
+        justify-content: center;
+    }
+
+    .subscribe-info{
+        text-align: center;
+    }
+    
+}
+
+/* medium screen 
+ */
+@media  screen and (min-width: 577px) and (max-width: 768px){
+    .header{
+        height: auto;
+    }
+
+    .header-aside{
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        padding-top: 70px;
+    }
+
+    .header-title{
+        font-size: 40px;
+        padding-right: 0;
+    }
+
+    .header-description{
+        font-size: 18px;
+        padding-right: 0;
+    }
+
+    .failures-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .my-plans-container{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+    }
+
+    .mindset-container{
+        margin: 10px;
+    }
+
+    .mindset-content{
+        padding: 50px 20px;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .future-container-content{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .my-sites{
+        justify-content: center;
+    }
+
+    .subscribe-info{
+        text-align: center;
+    }
+}
