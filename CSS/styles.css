@@ -1,4 +1,5 @@
 /* this is styles code  */
+/* banner styles start from here  */
 .header{
     background-image: url('/images/banner/banner3.png');
     background-size: cover;
@@ -29,3 +30,33 @@
     font-size: 20px;
     margin-top: 20px;
 }
+
+/* My failures container styles start from here 
+ */
+
+ .failures-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 20px;
+ }
+
+ .failures-container{
+    margin-top: 100px;
+ }
+
+ .failures-container p{
+    color: #444343;
+ }
+
+ .failures-container p span{
+    color: #151414;
+    font-weight: bold;
+ }
+
+ .failures-title{
+    color: #151414;
+    font-size: 36px;
+ }
