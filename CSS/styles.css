@@ -31,6 +31,21 @@
     margin-top: 20px;
 }
 
+.banner-btn{
+    text-align: right;
+    margin-right: 40px;
+    padding: 10px 15px ;
+    font-size: 15px;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner-btn:hover{
+    background-color: #141515;
+    color: white;
+    cursor: pointer;
+}   
 /* My failures container styles start from here 
  */
 
@@ -60,3 +75,85 @@
     color: #151414;
     font-size: 36px;
  }
+
+ /* my plan container styles start from here */
+
+ .my-plans-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 20px;
+ }
+
+ .plan-card{
+    border: 1px solid #151414;
+    border-radius: 10px;
+    padding: 20px;
+    width: auto;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+ }
+
+ .plan-card:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+ }
+
+ /* positive mindset container styles start from here   */
+
+ .mindset-container{
+    background-image: url('/images/watch.png');
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+ }
+
+ .mindset-content{
+    position: absolute;
+    padding: 70px 40px;
+    border: none;
+    border-radius: 10px;
+ }
+
+ .mindset-gradient{
+    position: relative;
+    top : 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 1;
+    pointer-events: none;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+ }  
+
+ .mindset-title{
+    color: white;
+ }
+
+ .positive-btn{
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    padding: 10px 15px ;
+    font-size: 15px;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.positive-btn:hover{
+    background-color: #141515;
+    color: white;
+    cursor: pointer;
+} 
